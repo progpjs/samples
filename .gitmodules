@@ -1,0 +1,24 @@
+[submodule "progpjs.httpServer"]
+	path = progpjs.httpServer
+	url = https://github.com/progpjs/httpServer.git
+	branch = main
+[submodule "progpjs.modules"]
+	path = progpjs.modules
+	url = https://github.com/progpjs/modules.git
+	branch = main
+[submodule "progpjs.progpAPI"]
+	path = progpjs.progpAPI
+	url = https://github.com/progpjs/progpAPI.git
+	branch = main
+[submodule "progpjs.progpjs"]
+	path = progpjs.progpjs
+	url = https://github.com/progpjs/progpjs.git
+	branch = main
+[submodule "progpjs.progpV8Engine"]
+	path = progpjs.progpV8Engine
+	url = https://github.com/progpjs/progpV8Engine.git
+	branch = main
+[submodule "embedProgpJs"]
+	path = embedProgpJs
+	url = https://github.com/progpjs/embedProgpJs.git
+	branch = main

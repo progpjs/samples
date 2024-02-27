@@ -1,0 +1,16 @@
+go 1.21
+
+use (
+	"./embedProgpJs"
+	"./progpjs.progpjs"
+	"./progpjs.progpV8Engine"
+	"./progpjs.progpAPI"
+	"./progpjs.httpServer"
+	"./progpjs.modules"
+)
+
+replace github.com/progpjs/progpjs/v2 v2.0.6 => ./progpjs.progpjs
+replace github.com/progpjs/progpV8Engine/v2 v2.0.6 => ./progpjs.progpV8Engine
+replace github.com/progpjs/progpAPI/v2 v2.0.6 => ./progpjs.progpAPI
+replace github.com/progpjs/modules/v2 v2.0.6 => ./progpjs.modules
+replace github.com/progpjs/httpServer/v2 v2.0.6 => ./progpjs.httpServer
